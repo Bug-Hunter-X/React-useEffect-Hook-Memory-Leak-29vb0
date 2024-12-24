@@ -1,0 +1,1 @@
+This repository demonstrates a common React bug involving the useEffect hook.  The bug is a missing return statement within the useEffect function, leading to potential memory leaks and unexpected behavior. The solution provides the corrected code with a return statement to properly cleanup the effect when the component unmounts.
